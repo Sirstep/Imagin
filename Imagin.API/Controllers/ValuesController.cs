@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Imagin.Api.Controllers
 {
-    // [Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
